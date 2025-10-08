@@ -8,7 +8,7 @@ const useHook = () => {
 
   useEffect(() => {
     setLoading(true)
-    axios("./Apps.json")
+    axios("/Apps.json")
       .then((data) => setProducts(data.data))
       .catch((err) => seterror(err))
       .finally(() => setLoading(false));
