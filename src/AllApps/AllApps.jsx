@@ -8,12 +8,13 @@ const AllApps = () => {
   const { products, loading, error } = useHook();
   const [search, setSearch] = useState("");
   const term = search.trim().toLocaleLowerCase();
-  const searchProduct = term? products.filter((product) =>
+  const searchProduct = term
+    ? products.filter((product) =>
         product.title.toLocaleLowerCase().includes(term)
       )
     : products;
-    console.log(searchProduct)
-    
+  console.log(searchProduct);
+
   return (
     <div className="container mx-auto">
       <div className="text-center my-10 ">
@@ -24,7 +25,7 @@ const AllApps = () => {
       </div>
       <div className="flex justify-between mx-2">
         <h1>
-          (16) <span className="text-sm text-gray-600">Apps Found</span>
+          ({searchProduct.length}) <span className="text-sm text-gray-600">Apps Found</span>
         </h1>
         <div>
           <IoIosSearch className="absolute md:top-[246px] ml-2 md:mr-0.5 text-[18px] md:text-[20px]  top-[309px]" />
@@ -37,6 +38,7 @@ const AllApps = () => {
           />
         </div>
       </div>
+
       <div className="grid md:grid-cols-4 container mx-auto md:gap-12 my-10">
         {searchProduct.map((data) => (
           <Card data={data}></Card>
