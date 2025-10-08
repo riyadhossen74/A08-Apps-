@@ -3,10 +3,25 @@ import { FaArrowDown, FaStarHalf } from 'react-icons/fa';
 
 const InstallApp = () => {
     const [install, setInstall] = useState([])
+    const [sortInstall, setSortInstall] = useState('none')
     useEffect(() => {
        const saveList = JSON.parse(localStorage.getItem("install")); 
        if(saveList) setInstall(saveList)
     }, [])
+        const sortedItem = (
+            () =>{
+            if(sortInstall === 'app-asc') {
+                return[...install].sort((a, b) => a.size - b.size)
+            }else if(sortInstall === 'app-desc'){
+                  return[...install].sort((a, b) => b.size - a.size)
+            }else{
+               return install
+            }
+        }
+        ) ()
+
+
+
     return (
        <div className='bg-[#F5F5F5]'>
          <div className='container mx-auto py-10 '>
@@ -16,19 +31,21 @@ const InstallApp = () => {
            </div>
            <div>
             <div className='flex justify-between'>
-                <h1>{install.length} Apps Found</h1>
-                <select name="" id="">
-                    <option>Sort by size</option>
-                    <option>Low to High</option>
-                    <option>High to Low</option>
+                <h1 className='font-semibold'>{sortedItem.length} Apps Found</h1>
+               <label className='border-1 border-gray-700 '>
+                 <select value={sortInstall} onChange={e => setSortInstall(e.target.value)}>
+                    <option value='none'>Sort by size</option>
+                    <option value='app-asc'>Low to High</option>
+                    <option value='app-desc'>High to Low</option>
                 </select>
+               </label>
             </div>
 
            </div>
          
           
         {
-            install.map((item) =>(
+           sortedItem.map((item) =>(
                  <div className='flex justify-between items-center bg-white my-5 px-5 py-2 shadow'>
                  <div className='flex gap-6 items-center '>
              <img  src={item.image} alt="" />
@@ -44,7 +61,7 @@ const InstallApp = () => {
                     <span>{item.ratingAvg}</span>
                 </div>
                 <div>
-                    <span>258 MB</span>
+                    <span>{item.size} Mb</span>
                 </div>
                 </div>
             </div>
