@@ -1,0 +1,4 @@
+@import "tailwindcss";
+.active{
+    @apply underline text-[#9F62F2]
+}
