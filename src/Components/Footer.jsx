@@ -1,6 +1,6 @@
 import { BsTwitterX } from "react-icons/bs";
 import { FaFacebook, FaTwitter, FaInstagram, FaHome } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+
 import { LiaLinkedin } from "react-icons/lia";
 
 const Footer = () => {
@@ -22,7 +22,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <p className="text-center py-2 text-sm">Copyright © 2025 - All right reserved</p>
+      <p className="text-center py-2 text-sm">
+        Copyright © 2025 - All right reserved
+      </p>
     </footer>
   );
 };

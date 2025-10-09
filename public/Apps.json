@@ -1,236 +1,236 @@
 [
   {
-    "image": "https://i.ibb.co/2t6P8ZL/app31.png",
-    "title": "FitTrack - Complete Fitness & Health Tracker",
-    "companyName": "Healthify",
-    "id": 31,
-    "description": "Fitness tracker with step counting, calorie burn, and workout insights.",
-    "size": 95,
+    "image": "https://i.ibb.co/zWn4JYk/app37.png",
+    "title": "TravelMate - Flight Deals & Trip Planner",
+    "companyName": "SkyGo",
+    "id": 37,
+    "description": "TravelMate helps you find cheap flights, hotels, and manage itineraries with ease.",
+    "size": 102,
+    "ratingAvg": 4.7,
+    "downloads": 13.4,
+    "totalReviews": 4.9,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 210 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 970 },
+      { "name": "5 star", "count": 2850 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/JpXPHyz/app38.png",
+    "title": "GameZone - Ultimate Gaming Hub",
+    "companyName": "PlayNation",
+    "id": 38,
+    "description": "GameZone brings you trending games, leaderboards, and community challenges.",
+    "size": 120,
+    "ratingAvg": 4.8,
+    "downloads": 18.6,
+    "totalReviews": 6.2,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 250 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 1450 },
+      { "name": "5 star", "count": 3700 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/Wsd2wS8/app39.png",
+    "title": "TaskHero - Productivity & To-Do Manager",
+    "companyName": "FocusLab",
+    "id": 39,
+    "description": "TaskHero helps you organize tasks, set goals, and track productivity daily.",
+    "size": 85,
+    "ratingAvg": 4.5,
+    "downloads": 7.2,
+    "totalReviews": 3.1,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 270 },
+      { "name": "4 star", "count": 750 },
+      { "name": "5 star", "count": 2100 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/1sNbmBv/app40.png",
+    "title": "CookBook - Recipe Finder & Meal Planner",
+    "companyName": "HomeTaste",
+    "id": 40,
+    "description": "CookBook offers thousands of recipes with personalized meal planning.",
+    "size": 97,
     "ratingAvg": 4.6,
-    "downloads": "10.5m",
-    "totalReviews": "4.2k",
+    "downloads": 10.1,
+    "totalReviews": 4.3,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 140 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 850 },
+      { "name": "5 star", "count": 2500 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/sPp0sHk/app41.png",
+    "title": "ShopEasy - Online Deals & Price Tracker",
+    "companyName": "Dealify",
+    "id": 41,
+    "description": "ShopEasy helps you find discounts and track prices across online stores.",
+    "size": 90,
+    "ratingAvg": 4.4,
+    "downloads": 9.3,
+    "totalReviews": 3.7,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 110 },
+      { "name": "3 star", "count": 260 },
+      { "name": "4 star", "count": 820 },
+      { "name": "5 star", "count": 2100 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/dm7p7Fg/app42.png",
+    "title": "NewsPulse - Daily News & Live Updates",
+    "companyName": "InfoStream",
+    "id": 42,
+    "description": "Stay updated with breaking news and live coverage from trusted sources.",
+    "size": 68,
+    "ratingAvg": 4.3,
+    "downloads": 8.5,
+    "totalReviews": 3.2,
     "ratings": [
       { "name": "1 star", "count": 120 },
-      { "name": "2 star", "count": 180 },
-      { "name": "3 star", "count": 400 },
-      { "name": "4 star", "count": 1100 },
+      { "name": "2 star", "count": 160 },
+      { "name": "3 star", "count": 280 },
+      { "name": "4 star", "count": 640 },
+      { "name": "5 star", "count": 1900 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/L0vx0mS/app43.png",
+    "title": "WeatherNow - Live Weather & Alerts",
+    "companyName": "ClimaTech",
+    "id": 43,
+    "description": "Get accurate weather forecasts and live storm alerts anywhere.",
+    "size": 77,
+    "ratingAvg": 4.5,
+    "downloads": 12.8,
+    "totalReviews": 4.7,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 130 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 2800 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/dj4W6LX/app44.png",
+    "title": "MovieBox - Stream Movies & Shows",
+    "companyName": "CineWorld",
+    "id": 44,
+    "description": "Watch your favorite movies and TV shows with MovieBox’s high-quality streaming.",
+    "size": 108,
+    "ratingAvg": 4.7,
+    "downloads": 15.9,
+    "totalReviews": 5.8,
+    "ratings": [
+      { "name": "1 star", "count": 210 },
+      { "name": "2 star", "count": 240 },
+      { "name": "3 star", "count": 420 },
+      { "name": "4 star", "count": 1220 },
+      { "name": "5 star", "count": 3100 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/9hFHRLc/app45.png",
+    "title": "LearnHub - Online Courses & Tutorials",
+    "companyName": "EduPro",
+    "id": 45,
+    "description": "LearnHub offers thousands of online courses to upskill yourself anytime.",
+    "size": 91,
+    "ratingAvg": 4.6,
+    "downloads": 11.5,
+    "totalReviews": 4.0,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 130 },
+      { "name": "3 star", "count": 270 },
+      { "name": "4 star", "count": 860 },
       { "name": "5 star", "count": 2400 }
     ]
   },
   {
-    "image": "https://i.ibb.co/7J3mFZc/app32.png",
-    "title": "FoodiePal - Restaurant Discovery & Food Delivery",
-    "companyName": "YumTech",
-    "id": 32,
-    "description": "Discover restaurants, menus, and food delivery with real-time reviews.",
-    "size": 82,
-    "ratingAvg": 4.5,
-    "downloads": "9.8m",
-    "totalReviews": "3.8k",
+    "image": "https://i.ibb.co/qWJf8vY/app46.png",
+    "title": "HealthifyMe - Fitness, Diet & Workout",
+    "companyName": "FitNation",
+    "id": 46,
+    "description": "HealthifyMe offers AI-powered fitness plans, calorie tracking, and workouts.",
+    "size": 99,
+    "ratingAvg": 4.8,
+    "downloads": 16.3,
+    "totalReviews": 6.0,
     "ratings": [
-      { "name": "1 star", "count": 100 },
-      { "name": "2 star", "count": 150 },
-      { "name": "3 star", "count": 310 },
-      { "name": "4 star", "count": 950 },
-      { "name": "5 star", "count": 2280 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co/Jp4Wmh2/app33.png",
-    "title": "PhotoEditPro - Advanced Photo Editor with AI Filters",
-    "companyName": "SnapWorks",
-    "id": 33,
-    "description": "Advanced photo editor with filters, layers, and AI enhancements.",
-    "size": 110,
-    "ratingAvg": 4.7,
-    "downloads": "17.5m",
-    "totalReviews": "5.4k",
-    "ratings": [
-      { "name": "1 star", "count": 180 },
-      { "name": "2 star", "count": 220 },
-      { "name": "3 star", "count": 480 },
+      { "name": "1 star", "count": 190 },
+      { "name": "2 star", "count": 230 },
+      { "name": "3 star", "count": 410 },
       { "name": "4 star", "count": 1300 },
-      { "name": "5 star", "count": 3220 }
+      { "name": "5 star", "count": 3350 }
     ]
   },
   {
-    "image": "https://i.ibb.co/7Svf8Bg/app34.png",
-    "title": "SleepWell - Smart Sleep Tracker & Alarm",
-    "companyName": "ZenLife",
-    "id": 34,
-    "description": "Sleep tracker and smart alarm with relaxation sounds and tips.",
-    "size": 70,
-    "ratingAvg": 4.4,
-    "downloads": "8.1m",
-    "totalReviews": "2.9k",
-    "ratings": [
-      { "name": "1 star", "count": 90 },
-      { "name": "2 star", "count": 130 },
-      { "name": "3 star", "count": 250 },
-      { "name": "4 star", "count": 570 },
-      { "name": "5 star", "count": 1860 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co/9V5qX5Y/app35.png",
-    "title": "BudgetBuddy - Personal Finance & Expense Tracker",
-    "companyName": "FinTrack",
-    "id": 35,
-    "description": "Personal finance manager with budget planning, expenses, and savings tips.",
-    "size": 88,
+    "image": "https://i.ibb.co/FX1CfBk/app47.png",
+    "title": "MindEase - Meditation & Relaxation App",
+    "companyName": "ZenStudio",
+    "id": 47,
+    "description": "MindEase helps you relax, meditate, and sleep better with guided sessions.",
+    "size": 83,
     "ratingAvg": 4.6,
-    "downloads": "11.2m",
-    "totalReviews": "3.5k",
+    "downloads": 9.1,
+    "totalReviews": 3.9,
     "ratings": [
       { "name": "1 star", "count": 110 },
-      { "name": "2 star", "count": 160 },
-      { "name": "3 star", "count": 320 },
-      { "name": "4 star", "count": 910 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 280 },
+      { "name": "4 star", "count": 860 },
+      { "name": "5 star", "count": 2300 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/Nt9fCwR/app48.png",
+    "title": "SecureVault - Password Manager",
+    "companyName": "CyberSafe",
+    "id": 48,
+    "description": "SecureVault safely stores and auto-fills all your passwords with strong encryption.",
+    "size": 75,
+    "ratingAvg": 4.5,
+    "downloads": 8.2,
+    "totalReviews": 3.3,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 270 },
+      { "name": "4 star", "count": 720 },
       { "name": "5 star", "count": 2000 }
     ]
   },
   {
-    "image": "https://i.ibb.co/5sYj7Gh/app36.png",
-    "title": "StudyMate - Study Planner & Flashcard Quiz App",
-    "companyName": "EduTech",
-    "id": 36,
-    "description": "Study planner with reminders, notes, and flashcard quizzes for students.",
-    "size": 93,
-    "ratingAvg": 4.5,
-    "downloads": "9.8m",
-    "totalReviews": "4.1k",
+    "image": "https://i.ibb.co/njMbrtb/app49.png",
+    "title": "ChatWorld - AI Chat & Community",
+    "companyName": "NextGen",
+    "id": 49,
+    "description": "ChatWorld connects people with smart AI chatbots and real communities.",
+    "size": 112,
+    "ratingAvg": 4.8,
+    "downloads": 17.8,
+    "totalReviews": 6.5,
     "ratings": [
-      { "name": "1 star", "count": 120 },
-      { "name": "2 star", "count": 140 },
-      { "name": "3 star", "count": 330 },
-      { "name": "4 star", "count": 940 },
-      { "name": "5 star", "count": 2560 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co/M5RZLsp/app37.png",
-    "title": "NewsFlash - Real-Time News & Personalized Feed",
-    "companyName": "InfoPulse",
-    "id": 37,
-    "description": "Real-time news app with personalized feeds and topic alerts.",
-    "size": 80,
-    "ratingAvg": 4.6,
-    "downloads": "12.5m",
-    "totalReviews": "4.7k",
-    "ratings": [
-      { "name": "1 star", "count": 130 },
-      { "name": "2 star", "count": 170 },
-      { "name": "3 star", "count": 410 },
-      { "name": "4 star", "count": 1150 },
-      { "name": "5 star", "count": 2730 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co/qFCdZ4r/app38.png",
-    "title": "YogaFlow - Yoga & Meditation Tracker",
-    "companyName": "ZenFit",
-    "id": 38,
-    "description": "Yoga routines and meditation guide with daily reminders and progress tracking.",
-    "size": 78,
-    "ratingAvg": 4.5,
-    "downloads": "8.7m",
-    "totalReviews": "3.2k",
-    "ratings": [
-      { "name": "1 star", "count": 100 },
-      { "name": "2 star", "count": 120 },
-      { "name": "3 star", "count": 290 },
-      { "name": "4 star", "count": 680 },
-      { "name": "5 star", "count": 2010 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co/t8kLk8F/app39.png",
-    "title": "TaskMaster - Project & Team Task Manager",
-    "companyName": "Prodify",
-    "id": 39,
-    "description": "Task and project manager with team collaboration and reminders.",
-    "size": 102,
-    "ratingAvg": 4.7,
-    "downloads": "16m",
-    "totalReviews": "5.3k",
-    "ratings": [
-      { "name": "1 star", "count": 160 },
-      { "name": "2 star", "count": 200 },
-      { "name": "3 star", "count": 450 },
-      { "name": "4 star", "count": 1250 },
-      { "name": "5 star", "count": 3230 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co/0fqvQ2x/app40.png",
-    "title": "TravelLog - Travel Diary & Photo Journal",
-    "companyName": "Wanderlust",
-    "id": 40,
-    "description": "Travel diary app with photos, location tagging, and journal entries.",
-    "size": 99,
-    "ratingAvg": 4.5,
-    "downloads": "9.1m",
-    "totalReviews": "2.8k",
-    "ratings": [
-      { "name": "1 star", "count": 90 },
-      { "name": "2 star", "count": 120 },
-      { "name": "3 star", "count": 310 },
-      { "name": "4 star", "count": 700 },
-      { "name": "5 star", "count": 1580 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co/0D0tjLr/app41.png",
-    "title": "ChefMaster - Step-by-Step Cooking & Recipes",
-    "companyName": "Cookly",
-    "id": 41,
-    "description": "Recipe manager with step-by-step cooking instructions and timers.",
-    "size": 95,
-    "ratingAvg": 4.6,
-    "downloads": "10.5m",
-    "totalReviews": "3.6k",
-    "ratings": [
-      { "name": "1 star", "count": 110 },
-      { "name": "2 star", "count": 150 },
-      { "name": "3 star", "count": 320 },
-      { "name": "4 star", "count": 940 },
-      { "name": "5 star", "count": 2060 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co/m4RF9dT/app42.png",
-    "title": "LangTutor - Language Learning & Pronunciation Guide",
-    "companyName": "LinguaPro",
-    "id": 42,
-    "description": "Language learning app with interactive exercises and pronunciation guide.",
-    "size": 92,
-    "ratingAvg": 4.5,
-    "downloads": "8.7m",
-    "totalReviews": "2.9k",
-    "ratings": [
-      { "name": "1 star", "count": 90 },
-      { "name": "2 star", "count": 130 },
-      { "name": "3 star", "count": 280 },
-      { "name": "4 star", "count": 670 },
-      { "name": "5 star", "count": 1730 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co/ZL1RjR6/app43.png",
-    "title": "EcoTracker - Carbon Footprint & Sustainability Tracker",
-    "companyName": "GreenWorld",
-    "id": 43,
-    "description": "Track your carbon footprint, recycling, and sustainability habits.",
-    "size": 85,
-    "ratingAvg": 4.4,
-    "downloads": "7.2m",
-    "totalReviews": "2.7k",
-    "ratings": [
-      { "name": "1 star", "count": 80 },
-      { "name": "2 star", "count": 110 },
-      { "name": "3 star", "count": 240 },
-      { "name": "4 star", "count": 560 },
-      { "name": "5 star", "count": 1710 }
+      { "name": "1 star", "count": 210 },
+      { "name": "2 star", "count": 250 },
+      { "name": "3 star", "count": 460 },
+      { "name": "4 star", "count": 1300 },
+      { "name": "5 star", "count": 3500 }
     ]
   }
 ]

@@ -10,9 +10,9 @@ const InstallApp = () => {
   }, []);
   const sortedItem = (() => {
     if (sortInstall === "app-asc") {
-      return [...install].sort((a, b) => a.size - b.size);
+      return [...install].sort((a, b) => a.downloads - b.downloads);
     } else if (sortInstall === "app-desc") {
-      return [...install].sort((a, b) => b.size - a.size);
+      return [...install].sort((a, b) => b.downloads - a.downloads);
     } else {
       return install;
     }
@@ -21,7 +21,7 @@ const InstallApp = () => {
   const handleRemove = (id) => {
     const existingList = JSON.parse(localStorage.getItem("install"));
     let updatedList = existingList.filter((p) => p.id !== id);
-    setInstall((prev) => prev.filter((p) => p.id !== id));
+    setInstall(updatedList);
     localStorage.setItem("install", JSON.stringify(updatedList));
   };
 
@@ -51,15 +51,15 @@ const InstallApp = () => {
         </div>
 
         {sortedItem.map((item) => (
-          <div className="flex justify-between items-center bg-white my-5 px-5 py-2 shadow">
-            <div className="flex gap-6 items-center ">
-              <img src={item.image} alt="" />
+          <div className="md:flex justify-between items-center bg-white my-5 px-5 py-2 shadow">
+            <div className="md:flex gap-6 items-center ">
+              <img className="w-[50px]" src={item.image} alt="" />
               <div>
                 <h1 className="font-semibold">{item.title}</h1>
                 <div className="flex gap-6 my-2">
                   <div className="flex items-center gap-1">
                     <FaArrowDown />
-                    <span>{item.downloads}</span>
+                    <span>{item.downloads}M</span>
                   </div>
                   <div className="flex items-center gap-1">
                     <FaStarHalf />
