@@ -33,6 +33,8 @@ const InstallNowSection = () => {
     }
     localStorage.setItem("install", JSON.stringify(updatedList));
   };
+ 
+
   return (
     <div className="bg-[#F5F5F5]">
       <div className="flex container mx-auto gap-20 py-10">
